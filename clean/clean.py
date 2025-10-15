@@ -12,12 +12,6 @@ INDIC_NLP_LIB_HOME="./indic_nlp_library"
 #INDIC_NLP_RESOURCES="./indic_nlp_resources"
 # Since indic_nlp_resources is inside the 'clean' folder, adjust the path accordingly
 INDIC_NLP_RESOURCES = os.path.join(BASE_DIR, "indic_nlp_resources")
-
-from indicnlp import common
-common.set_resources_path(INDIC_NLP_RESOURCES)
-
-from indicnlp import loader
-loader.load()
 import json
 import re
 from langdetect import detect_langs
