@@ -46,8 +46,8 @@ class HindiTextCleaner:
         self.remove_non_hindi = remove_non_hindi
         self.transliterate = transliterate
         self.transliterator = None
-        if transliterate:
-            self.transliterator = Transliterator(source='eng', target='hin')
+        # if transliterate:
+        #     self.transliterator = Transliterator(source='eng', target='hin')
 
     def convert_to_hindi_numbers(self, english_num):
         """Converts English numbers to Hindi.
