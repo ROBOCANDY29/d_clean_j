@@ -1,7 +1,6 @@
 import re
 import os
 import json
-from indictrans import Transliterator
 
 
 def load_json(filename):
