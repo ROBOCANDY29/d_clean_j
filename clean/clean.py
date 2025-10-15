@@ -15,7 +15,6 @@ INDIC_NLP_RESOURCES = os.path.join(BASE_DIR, "indic_nlp_resources")
 import json
 import re
 from langdetect import detect_langs
-from indicnlp.tokenize import sentence_tokenize
 from clean.badwords_en_hi_hiR import badword_list
 # Constants
 _MIN_WORDS_PER_LINE = 3
